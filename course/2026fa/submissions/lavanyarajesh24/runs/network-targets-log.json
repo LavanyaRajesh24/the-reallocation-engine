@@ -3,7 +3,7 @@
   "_version": "0.1.0",
   "run": {
     "today": "2026-10-02",
-    "generated_at": "2026-10-02T18:27:08.264Z"
+    "generated_at": "2026-10-02T18:36:30.639Z"
   },
   "inputs": {
     "persona": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/persona.json",
@@ -42,12 +42,12 @@
       "from": "--today or system date"
     },
     "opt_start_date": {
-      "value": "2027-06-15",
+      "value": "2027-01-15",
       "source": "your-input",
       "from": "persona.visa.opt_start_date"
     },
     "opt_end_date": {
-      "value": "2028-06-14",
+      "value": "2028-01-14",
       "source": "your-input",
       "from": "persona.visa.opt_end_date"
     },
@@ -62,12 +62,12 @@
       "from": "persona.assumptions.hiring_lag_days (an assumption, not a measurement)"
     },
     "work_window_end": {
-      "value": "2027-09-13",
+      "value": "2027-04-15",
       "source": "your-input",
       "from": "min(opt_end, max(opt_start,today) + unemployment days remaining)"
     },
     "earliest_start": {
-      "value": "2027-06-15",
+      "value": "2027-01-15",
       "source": "your-input",
       "from": "max(today + hiring lag, opt_start)"
     },
@@ -77,7 +77,7 @@
       "from": "work_window_end - earliest_start"
     },
     "start_wait_days": {
-      "value": 256,
+      "value": 105,
       "source": "your-input",
       "from": "opt_start - today: days before this person can legally start"
     },

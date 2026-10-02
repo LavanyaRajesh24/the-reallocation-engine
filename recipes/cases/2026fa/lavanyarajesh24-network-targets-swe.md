@@ -183,7 +183,7 @@ not look" as "the job is live".
 | That the sponsored roles were software developer roles (SOC 15-1252) | The CSV has no SOC codes, only a title list; matched by the text pattern `software` | Labels the match a title filter (your-input); proposes SOC-coded data (Proposed addition 1) |
 | When the approvals happened | The CSV has totals, no fiscal years | Says so in every report |
 | That a listed posting is real hiring | A board API can keep listing a filled role ("ghost") | Liveness `1.0` means "listed at `fetched_at`", nothing more |
-| That a posting can wait for a start months away | Postings rarely state it; this persona cannot start for 256 days | The H1 gate tells the person to check before applying |
+| That a posting can wait for a start months away | Postings rarely state it; this persona cannot start for 105 days (OPT start 2027-01-15) | The H1 gate tells the person to check before applying |
 | That a company with no match has no openings anywhere | It may use a second board or another ATS (e.g. one checked board listed only internships) | "Network first" is a suggestion for a person to judge, not a fact |
 | E-Verify enrollment, needed for a later STEM extension | Not in any shipped dataset | Proposed addition 2 |
 | Funding accuracy | The 80 Days funding columns contain visible mismatches (e.g. a large professional-services firm with a 2024 "Seed" round) and a duplicate company row | Funding only orders the network list (priority A/B); it is not a scorer term |

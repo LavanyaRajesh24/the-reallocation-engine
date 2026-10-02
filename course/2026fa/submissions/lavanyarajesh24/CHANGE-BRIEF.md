@@ -125,3 +125,24 @@ reviewed and edited by me. See FRICTIONAL.md for who did what.*
 ## Revisions
 
 *(append dated entries here; do not edit the predictions above)*
+
+### 2026-10-02 — after the first sample run
+
+- **Prediction 5 (title matching too loose) came true, plus a bug I did not predict.**
+  - The first run counted senior and lead roles as matches for a new graduate.
+  - Location matching used substrings, so "MA" matched "Manitoba" and "Madrid". Datadog's
+    France roles and MongoDB's Canada roles landed on the apply list.
+  - Fix: whole-word matching in `network-targets.mjs`, plus senior / lead / embedded /
+    mobile / frontend excludes in the persona (your-input).
+  - The first run is kept in `runs/first-pass/` as evidence.
+- **Prediction 5 (many companies won't be on Greenhouse) came true.** 7 of 20 hand-entered
+  board slugs returned HTTP 404; those companies are unchecked.
+- **Not predicted:** one checked board (Cambridge Mobile Telematics) listed only an
+  internship page. "No match on this board" is not "no openings anywhere".
+- **Not predicted:** the scorer's skip rate for the first run was 3 %. Without a fit rating,
+  "Apply" means "Proven sponsor + any matching posting". After the filter fix it was 23 %.
+- **Persona dates corrected.** The draft persona assumed a May 2027 graduation. My real
+  graduation is December 2026, so the persona now has OPT starting 2027-01-15 and ending
+  2028-01-14. Re-run result: the same buckets (timeline factor 1 either way); the wait
+  before a legal start fell from 256 to 105 days. The section 1 text above is left as
+  originally written.

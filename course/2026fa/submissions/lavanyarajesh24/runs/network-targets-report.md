@@ -2,7 +2,7 @@
 
 ## Executive summary
 
-This report sorts software-engineering employers in MA and NY that have sponsored H-1B visas for software job titles into four groups, for a student who cannot start work until 2027-06-15.
+This report sorts software-engineering employers in MA and NY that have sponsored H-1B visas for software job titles into four groups, for a student who cannot start work until 2027-01-15.
 
 - **Apply now: 8** — a matching software posting was listed on the company's job board when it was checked, and the engine's scorer said Apply or Consider.
 - **Network first: 5** — strong sponsorship history but no matching opening on the board. These are people to meet before a role opens, not applications.
@@ -23,14 +23,14 @@ Every number below is labeled: **record** (read from a dataset or a saved job bo
 | scorer | `scripts/score/role-scorer.mjs` | — |
 | out_dir | `course/2026fa/submissions/lavanyarajesh24/runs` | — |
 | timeline.today | 2026-10-02 | your-input |
-| timeline.opt_start_date | 2027-06-15 | your-input |
-| timeline.opt_end_date | 2028-06-14 | your-input |
+| timeline.opt_start_date | 2027-01-15 | your-input |
+| timeline.opt_end_date | 2028-01-14 | your-input |
 | timeline.unemployment_days_remaining | 90 | your-input |
 | timeline.hiring_lag_days | 60 | your-input |
-| timeline.work_window_end | 2027-09-13 | your-input |
-| timeline.earliest_start | 2027-06-15 | your-input |
+| timeline.work_window_end | 2027-04-15 | your-input |
+| timeline.earliest_start | 2027-01-15 | your-input |
 | timeline.slack_days | 90 | your-input |
-| timeline.start_wait_days | 256 | your-input |
+| timeline.start_wait_days | 105 | your-input |
 | timeline.factor | 1 | your-input |
 | CSV rows read | 30369 | record |
 | candidates after state + sponsored-title filter | 133 | record (filter is your-input) |
