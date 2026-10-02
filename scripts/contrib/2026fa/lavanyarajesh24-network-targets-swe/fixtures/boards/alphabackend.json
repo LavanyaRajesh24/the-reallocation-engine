@@ -1,0 +1,6 @@
+{ "company": "ALPHA BACKEND INC", "provider": "greenhouse", "slug": "alpha-fixture", "fetched_at": "2026-10-01T12:00:00.000Z", "status": "ok",
+  "jobs": [
+    { "title": "Software Engineer, Backend", "url": "https://job-boards.greenhouse.io/alpha-fixture/jobs/1", "company": "ALPHA BACKEND INC", "location": "Boston, MA" },
+    { "title": "Senior Software Engineer", "url": "https://job-boards.greenhouse.io/alpha-fixture/jobs/2", "company": "ALPHA BACKEND INC", "location": "Boston, MA" },
+    { "title": "Software Engineer", "url": "https://job-boards.greenhouse.io/alpha-fixture/jobs/3", "company": "ALPHA BACKEND INC", "location": "Manitoba, Canada" }
+  ] }

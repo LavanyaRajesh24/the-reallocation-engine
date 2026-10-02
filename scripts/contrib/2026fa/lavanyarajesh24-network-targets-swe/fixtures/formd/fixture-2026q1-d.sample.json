@@ -1,0 +1,3 @@
+{ "metadata": { "quarter": "FIXTURE", "_sample": "fictional fixture for the network-targets test" },
+  "companies": [ { "company": { "name": "Bravo Platform, Inc.", "company_name_normalized": "bravoplatforminc" },
+                   "funding": { "total_amount_sold": 12000000.0 }, "filing": { "date_filed": "15-JAN-2025" } } ] }

@@ -1,0 +1,442 @@
+[
+  {
+    "role_id": "attentivemobile:none",
+    "company": "ATTENTIVE MOBILE INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "(no matching posting on board)",
+    "liveness": {
+      "factor": 0,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#attentivemobile @ 2026-10-02T18:19:20.456Z"
+    }
+  },
+  {
+    "role_id": "cambridgemobiletelematics:none",
+    "company": "CAMBRIDGE MOBILE TELEMATICS INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "(no matching posting on board)",
+    "liveness": {
+      "factor": 0,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#cambridgemobiletelematics @ 2026-10-02T18:19:21.024Z"
+    }
+  },
+  {
+    "role_id": "coherehealth:1",
+    "company": "COHERE HEALTH INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer II",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#coherehealth @ 2026-10-02T18:19:20.345Z"
+    }
+  },
+  {
+    "role_id": "datadog:1",
+    "company": "DATADOG INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer with Systems Depth",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#datadog @ 2026-10-02T18:19:19.990Z"
+    }
+  },
+  {
+    "role_id": "flatironhealth:1",
+    "company": "FLATIRON HEALTH INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#flatironhealth @ 2026-10-02T18:19:20.398Z"
+    }
+  },
+  {
+    "role_id": "formlabs:1",
+    "company": "FORMLABS INC",
+    "sponsorship": {
+      "p": 0.6,
+      "tier": "Likely",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer, E-commerce ",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#formlabs @ 2026-10-02T18:19:21.076Z"
+    }
+  },
+  {
+    "role_id": "formlabs:2",
+    "company": "FORMLABS INC",
+    "sponsorship": {
+      "p": 0.6,
+      "tier": "Likely",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer - Print Pipeline",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#formlabs @ 2026-10-02T18:19:21.076Z"
+    }
+  },
+  {
+    "role_id": "justworks:1",
+    "company": "JUSTWORKS INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#justworks @ 2026-10-02T18:19:20.620Z"
+    }
+  },
+  {
+    "role_id": "klaviyo:1",
+    "company": "KLAVIYO INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Full Stack Software Engineer - People Systems",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#klaviyo @ 2026-10-02T18:19:20.106Z"
+    }
+  },
+  {
+    "role_id": "klaviyo:2",
+    "company": "KLAVIYO INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer II - Recommendations",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#klaviyo @ 2026-10-02T18:19:20.106Z"
+    }
+  },
+  {
+    "role_id": "klaviyo:3",
+    "company": "KLAVIYO INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer II, Test Frameworks & Tooling",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#klaviyo @ 2026-10-02T18:19:20.106Z"
+    }
+  },
+  {
+    "role_id": "mongodb:1",
+    "company": "MONGODB INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#mongodb @ 2026-10-02T18:19:19.755Z"
+    }
+  },
+  {
+    "role_id": "mongodb:2",
+    "company": "MONGODB INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer 3",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#mongodb @ 2026-10-02T18:19:19.755Z"
+    }
+  },
+  {
+    "role_id": "mongodb:3",
+    "company": "MONGODB INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer 3",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#mongodb @ 2026-10-02T18:19:19.755Z"
+    }
+  },
+  {
+    "role_id": "mongodb:4",
+    "company": "MONGODB INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer 3, Atlas Clusters Platform",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#mongodb @ 2026-10-02T18:19:19.755Z"
+    }
+  },
+  {
+    "role_id": "mongodb:5",
+    "company": "MONGODB INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer 3, Atlas Identity and Access Management",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#mongodb @ 2026-10-02T18:19:19.755Z"
+    }
+  },
+  {
+    "role_id": "mongodb:6",
+    "company": "MONGODB INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer 3, Networking & Observability",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#mongodb @ 2026-10-02T18:19:19.755Z"
+    }
+  },
+  {
+    "role_id": "mongodb:7",
+    "company": "MONGODB INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer 3, Storage Execution",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#mongodb @ 2026-10-02T18:19:19.755Z"
+    }
+  },
+  {
+    "role_id": "pathai:1",
+    "company": "PATHAI INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "Software Engineer I, Fullstack",
+    "liveness": {
+      "factor": 1,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#pathai @ 2026-10-02T18:19:20.969Z"
+    }
+  },
+  {
+    "role_id": "squarespace:none",
+    "company": "SQUARESPACE INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "(no matching posting on board)",
+    "liveness": {
+      "factor": 0,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#squarespace @ 2026-10-02T18:19:20.516Z"
+    }
+  },
+  {
+    "role_id": "toast:none",
+    "company": "TOAST INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "(no matching posting on board)",
+    "liveness": {
+      "factor": 0,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#toast @ 2026-10-02T18:19:20.278Z"
+    }
+  },
+  {
+    "role_id": "yext:none",
+    "company": "YEXT INC",
+    "sponsorship": {
+      "p": 0.9,
+      "tier": "Proven",
+      "source": "record",
+      "derived_by": "tier rule over 80 Days approval counts; thresholds are your-input"
+    },
+    "timeline": {
+      "factor": 1,
+      "source": "your-input"
+    },
+    "title": "(no matching posting on board)",
+    "liveness": {
+      "factor": 0,
+      "source": "record",
+      "from": "scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/boards-snapshot.json#yext @ 2026-10-02T18:19:21.208Z"
+    }
+  }
+]

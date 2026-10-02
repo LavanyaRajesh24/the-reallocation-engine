@@ -1,0 +1,82 @@
+{
+  "_note": "FICTIONAL test persona (fixture). Same shape as inputs/persona.json.",
+  "persona": "Meera Iyer (fictional)",
+  "degree": "MS Software Engineering Systems (Boston), expected May 2027",
+  "visa": {
+    "status": "F-1 student, pre-OPT",
+    "needs_sponsorship": true,
+    "opt_start_date": "2027-06-15",
+    "opt_end_date": "2028-06-14",
+    "unemployment_days_used": 0,
+    "unemployment_ceiling": 90
+  },
+  "target": {
+    "soc_code": "15-1252",
+    "states": [
+      "MA",
+      "NY"
+    ],
+    "sponsored_title_pattern": "software",
+    "posting_title_include": [
+      "software engineer",
+      "backend",
+      "platform engineer",
+      "software developer"
+    ],
+    "posting_title_exclude": [
+      "intern",
+      "internship",
+      "manager",
+      "director",
+      "principal",
+      "staff",
+      "sales",
+      "in test",
+      "senior",
+      "sr",
+      "lead",
+      "embedded",
+      "android",
+      "ios",
+      "mobile",
+      "frontend",
+      "front end"
+    ],
+    "posting_location_include": [
+      "MA",
+      "Massachusetts",
+      "Boston",
+      "Cambridge",
+      "Somerville",
+      "NY",
+      "New York",
+      "New York City",
+      "United States",
+      "USA",
+      "US"
+    ],
+    "named_companies": [
+      "ZULU NOT REAL INC"
+    ]
+  },
+  "assumptions": {
+    "hiring_lag_days": 60,
+    "funding_recent_months": 36,
+    "sponsorship_tiers": {
+      "proven": {
+        "min_approvals": 10,
+        "min_approval_rate": 90,
+        "p": 0.9
+      },
+      "likely": {
+        "min_approvals": 3,
+        "p": 0.6
+      },
+      "possible": {
+        "min_approvals": 1,
+        "p": 0.3
+      }
+    }
+  },
+  "fit_ratings": {}
+}

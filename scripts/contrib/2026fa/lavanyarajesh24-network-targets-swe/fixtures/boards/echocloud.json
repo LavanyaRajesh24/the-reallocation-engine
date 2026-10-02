@@ -1,0 +1,1 @@
+{ "company": "ECHO CLOUD INC", "provider": "greenhouse", "slug": "echo-fixture", "fetched_at": "2026-10-01T12:00:00.000Z", "status": "error", "http_status": 404, "error": "HTTP 404: {\"status\":404,\"error\":\"Job not found\"}", "jobs": null }
