@@ -1,0 +1,36 @@
+## 2026-10-02 — network-targets-swe sample run 1
+
+- **Recipe:** network-targets-swe — `recipes/cases/2026fa/lavanyarajesh24-network-targets-swe.md` v0.1.0 (DRAFT)
+- **Inputs:**
+  - persona `scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/inputs/persona.json` (fictional);
+  - CSV `data/80-days-to-stay/80-days-csv/mapped_student_employment_targets_v3.csv`;
+  - Form D `data/sec/form-d/processed/sample/` (samples only, 200 filings);
+  - BLS `data/bls/compact/soc_occupation_compact.csv`;
+  - boards snapshot `.../inputs/boards-snapshot.json` (Greenhouse, captured 2026-10-02 ≈ 18:19 UTC; 13 ok, 7 HTTP 404);
+  - `--today 2026-10-02`.
+- **Commands:**
+  - `node scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/capture-boards.mjs` (network; boards-api.greenhouse.io only);
+  - `node scripts/contrib/2026fa/lavanyarajesh24-network-targets-swe/network-targets.mjs --today 2026-10-02` (offline).
+- **Outputs:** `course/2026fa/submissions/lavanyarajesh24/runs/`:
+  - `network-targets-log.json`, `network-targets-report.md`;
+  - `roles.json`, `role-scores.json`, `role-scores.md`;
+  - first pass kept in `runs/first-pass/`.
+- **Result:**
+  - 133 candidates of 30,369 CSV rows → apply 8 · network 5 · check-board 120 · skip 0 · not-in-dataset 0;
+  - scorer: "scored 22 roles → Apply 15 · Consider 2 · Skip 5 (skip 23%)";
+  - Form D sample match 0/133;
+  - offline tests 7/7 pass.
+- **Gate decisions:**
+  - G0 pass;
+  - G1 pass (all 11 required columns);
+  - G2 factor 1.0 (window ends 2027-04-15, earliest start 2027-01-15, 90-day slack vs 60-day lag);
+  - G3 unchecked 120 (113 no snapshot, 7 board errors);
+  - H1 — report read by Lavanya Rajesh on 2026-10-__ ⚠ *(fill in when read)*.
+- **Open issues:**
+  - The first pass used substring location matching ("MA" ⊂ "Manitoba") and let senior roles through. Fixed by whole-word matching and persona excludes; the first pass is kept.
+  - The scorer prints the sponsorship term as `[record]`, but p = 0.9 comes from a your-input tier rule.
+  - Funding recency was "old" for every checked company, so all network targets are priority B.
+  - The 80 Days funding columns have visible errors (a professional-services firm with a "Seed" round; a duplicate Peloton row).
+  - Cambridge Mobile Telematics' board lists only internships, so its "network first" may be wrong.
+  - The scorer's `--profile` regex reads "work authorized (EAD)" as not needing sponsorship; avoided by not passing `--profile`.
+  - `npm run ats:liveness` was not run (Chromium not installed).
